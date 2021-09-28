@@ -1,0 +1,26 @@
+.About {
+    
+    background-color: white;
+    background-color: gray;
+    margin: 0 20px;
+    border-radius: 15px;
+    padding-bottom: 3px;
+}
+
+.Paragraf {
+    display: flex;
+  align-items: flex-end;
+    padding: 5px 10px;
+
+}.Paragraf2 {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 10px;
+    font-weight: 500;
+}
+
+.Button {
+    background-color: black;
+    max-width: 200px;
+    margin: 20px;
+}
