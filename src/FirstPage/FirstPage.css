@@ -1,28 +1,27 @@
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  ;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
 
-  .App-header {
-    background-color: black;
-    min-height: 100vh;
-    display: flex;
-    flex-direction:row ;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
-    font-weight: bold;
-    color:rgb(255, 255, 255);
-  
-  }
-  .item2 {
-    font-size: 40px;
-    margin-left: 10px;
-    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: lighter;
-  }
-  
-  
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  
+}
+
+.item2 {
+  font-size: 40px;
+  margin-left: 10px;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
