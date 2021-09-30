@@ -1,7 +1,8 @@
 import React from "react";
 import "./About.css";
 
-const About = () => {
+
+const About = (props) => {
   return (
     <div>
       <h1 className="Title">About UberBus</h1>
@@ -48,7 +49,14 @@ const About = () => {
         </p>
         <img className="Image" src="Images/about4.png" alt="" />
       </div>
-      <button className="Button">Continue</button>
+
+      <button
+        onClick={() => {
+          props.history.push("/destination");
+        }}
+      >
+        Continue
+      </button>
     </div>
   );
 };
