@@ -12,7 +12,7 @@ const FirstPage = (props) => {
   return (
     <div className="App-header">
       <p>Uber</p>
-      <div class="item2">
+      <div className="item2">
         <p>Bus</p>
       </div>
     </div>

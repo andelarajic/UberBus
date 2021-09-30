@@ -50,7 +50,7 @@ const About = (props) => {
         <img className="Image" src="Images/about4.png" alt="" />
       </div>
 
-      <button
+      <button className="Button"
         onClick={() => {
           props.history.push("/destination");
         }}
