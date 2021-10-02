@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import "./Navigation.css"
+import "./Navigation.css";
 
 const Navigation = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -21,7 +21,7 @@ const Navigation = () => {
   return (
     <nav>
       <div className="text">
-        <FontAwesomeIcon 
+        <FontAwesomeIcon
           icon={faBars}
           onClick={(e) => setShowMenu(!showMenu)}
         />
