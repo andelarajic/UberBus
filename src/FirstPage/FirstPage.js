@@ -1,10 +1,7 @@
 import React from "react";
 import "./FirstPage.css";
-import { BrowserRouter as Router, useHistory } from "react-router-dom";
 
 const FirstPage = (props) => {
-  const history = useHistory();
-
   setTimeout(() => {
     props.history.push("./about");
   }, 3000);
