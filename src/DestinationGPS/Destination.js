@@ -6,9 +6,8 @@ import "./Destination.css";
 function Destination(props) {
   return (
     <div>
+     <Navigation />
       <Map />
-      <div style={{ position: "absolute", margin: "20px", zIndex: 1 }}>
-        <Navigation />
         <div className="Routes">
           <button
             className="Button"
@@ -28,7 +27,7 @@ function Destination(props) {
           </button>
         </div>
       </div>
-    </div>
+  
   );
 }
 

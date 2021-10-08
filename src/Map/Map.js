@@ -15,12 +15,12 @@ export default function SimpleMap(props) {
   return (
     // Important! Always set the container height explicitly
 
-    <div style={{ position: "relative" }}>
+    <div>
       <div
         style={{
           height: "50vh",
           width: "100%",
-          position: "absolute",
+          position:"relative",
           zIndex: 0,
         }}
       >

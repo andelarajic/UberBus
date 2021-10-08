@@ -47,7 +47,7 @@ const Navigation = (props) => {
   }
 
   return (
-    <nav>
+    <nav className="nav1">
       <div className="icon">
         <FiMenu icon={faBars} onClick={(e) => setShowMenu(!showMenu)} />
       </div>

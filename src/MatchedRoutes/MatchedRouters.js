@@ -1,6 +1,6 @@
 import React from "react";
 import Map from "../Map/Map";
-import "./MatchedRoutes.css";
+
 import { IoArrowBack } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
@@ -13,15 +13,19 @@ const MatchedRouters = (props) => {
       <h1 className="Matchedtext">Matched Routers</h1>
       <hr className="hr" />
       <h3 className="Location">Location</h3>
-      <Map />
-      <button
-        className="viewbuses"
-        onClick={() => {
-          props.history.push("/choseabus");
-        }}
-      >
-        View buses
-      </button>
+      <div>
+        <Map />
+      </div>
+      <div>
+        <button
+          className="viewbuses"
+          onClick={() => {
+            props.history.push("/choseabus");
+          }}
+        >
+          View buses
+        </button>
+      </div>
     </div>
   );
 };
