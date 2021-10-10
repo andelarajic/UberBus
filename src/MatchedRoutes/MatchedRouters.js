@@ -1,6 +1,6 @@
 import React from "react";
 import Map from "../Map/Map";
-
+import "./MatchedRoutes.css";
 import { IoArrowBack } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
@@ -25,6 +25,7 @@ const MatchedRouters = (props) => {
         >
           View buses
         </button>
+        <hr className="hr" />
       </div>
     </div>
   );

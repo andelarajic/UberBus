@@ -20,7 +20,7 @@ function Destination(props) {
           <button
             className="Button"
             onClick={() => {
-              props.history.push("/");
+              props.history.push("/allroutes");
             }}
           >
             All Routes
