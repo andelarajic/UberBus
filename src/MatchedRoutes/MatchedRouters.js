@@ -20,7 +20,7 @@ const MatchedRouters = (props) => {
         <button
           className="viewbuses"
           onClick={() => {
-            props.history.push("/choseabus");
+            props.history.push("/choosebusmatched");
           }}
         >
           View buses

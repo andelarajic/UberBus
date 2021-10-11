@@ -4,22 +4,27 @@
     padding-bottom: 10px;
 }
 
+.Uberbutton {
+    width: 100%;
+    border: none;
+    background-color: white;
+}
+
 .UberImage {
     position: relative;
     width: 100%;
 }
 
-.Image {
+.Image5 {
     position: absolute;
-    vertical-align: middle;
-    margin-left: 15px;
-    top: -10px;
+    left: 13px;
+    top: 3px;
 }
 
 .UberBus {
     position: relative;
-    margin-left: 70px;
-    top: 6px;
+    margin-left: 63px;
+    top: 3px;
     font-size: 17px;
     display: flex;
     flex-wrap: wrap;
@@ -28,9 +33,11 @@
 
 .Time {
     position: relative;
-    margin-left: 70px;
-    top: -7px;
+    margin-left: 63px;
+    top: -9px;
     font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Number {

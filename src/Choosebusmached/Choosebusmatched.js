@@ -1,13 +1,12 @@
 import React from "react";
 import Map from "../Map/Map";
-import "./Choosebus.css";
-import Arrow from "../Arrow/Arrow";
+import Arrow2 from "../Arrow2/Arrow2";
 import { IoPersonSharp } from "react-icons/io5";
 
-function Choosebus(props) {
+function Choosebusmatched(props) {
   return (
     <div>
-      <Arrow />
+      <Arrow2 />
       <Map />
       <p className="Choose">Choose a bus</p>
       <button className="Uberbutton"
@@ -44,9 +43,8 @@ function Choosebus(props) {
       </div>
       </button>
       <hr className="hr" />
-
     </div>
   );
 }
 
-export default Choosebus;
+export default Choosebusmatched;
