@@ -1,0 +1,46 @@
+.Choose {
+    text-align: center;
+    font-size: 400;
+    padding-bottom: 10px;
+}
+
+.UberImage {
+    position: relative;
+    width: 100%;
+}
+
+.Image {
+    position: absolute;
+    vertical-align: middle;
+    margin-left: 15px;
+    top: -10px;
+}
+
+.UberBus {
+    position: relative;
+    margin-left: 70px;
+    top: 6px;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Time {
+    position: relative;
+    margin-left: 70px;
+    top: -7px;
+    font-size: 13px;
+}
+
+.Number {
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.Icon {
+    font-size: 18px;
+}

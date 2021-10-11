@@ -18,7 +18,7 @@ const AllRoutes = (props) => {
       <button
         className="viewbuses"
         onClick={() => {
-          props.history.push("/choseabus");
+          props.history.push("/choosebusall");
         }}
       >
         View buses
