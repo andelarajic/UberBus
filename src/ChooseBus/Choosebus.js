@@ -1,13 +1,14 @@
 import React from "react";
 import Map from "../Map/Map";
-import "./Choosebus.css";
 import Arrow from "../Arrow/Arrow";
+import "./Choosebus.css";
 import { IoPersonSharp } from "react-icons/io5";
+
 
 function Choosebus(props) {
   return (
     <div>
-      <Arrow />
+    <Arrow/>
       <Map />
       <p className="Choose">Choose a bus</p>
       <button className="Uberbutton"

@@ -5,6 +5,7 @@ import { IoArrowBack } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { AiFillWarning } from "react-icons/ai";
 
+
 const AllRoutes = (props) => {
   return (
     <div className="AllRoutes">
@@ -18,7 +19,7 @@ const AllRoutes = (props) => {
       <button
         className="viewbuses"
         onClick={() => {
-          props.history.push("/choosebusall");
+          props.history.push("/choosebus");
         }}
       >
         View buses
