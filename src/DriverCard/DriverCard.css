@@ -1,0 +1,49 @@
+.AboutDriver {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.Driver {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Car {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.IconPerson {
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(104, 104, 104);
+}
+
+.IconColor {
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+    color: rgb(60, 179, 113);
+    font-weight: 100;
+    margin-left: 1px;
+
+}
+
+.Number1 {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 22px;
+
+}
+
+.Rating {
+    position: absolute;
+    right: 50px;
+    bottom: 23px;
+}

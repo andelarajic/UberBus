@@ -18,9 +18,11 @@ export default function InfoMap(props) {
     <div>
       <div
         style={{
-          height: "30vh",
-          width: "30%",
+          height: "20vh",
+          width: "40%",
           position:"relative",
+          float:"right",
+          margin:"20px",
           zIndex: 0,
         }}
       >
