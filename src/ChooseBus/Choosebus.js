@@ -13,7 +13,7 @@ function Choosebus(props) {
       <p className="Choose">Choose a bus</p>
       <button className="Uberbutton"
         onClick={() => {
-          props.history.push("/destination");
+          props.history.push("/businfo1");
         }}
       >
       <div className="UberImage">

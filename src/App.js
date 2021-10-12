@@ -6,6 +6,7 @@ import Destination from "./DestinationGPS/Destination";
 import MatchedRouters from "./MatchedRoutes/MatchedRouters";
 import AllRoutes from "./AllRoutes/AllRoutes";
 import Choosebus from "./ChooseBus/Choosebus";
+import SpecificBusInfo from "./SpecificBusInfo/SpecificBusInfo";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route exact path="/route" component={MatchedRouters} />
       <Route exact path="/allroutes" component={AllRoutes} />
       <Route exact path="/choosebus" component={Choosebus} />
+      <Route exact path="/businfo1" component={SpecificBusInfo} />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import GoogleMapReact from "google-map-react";
 
 const Destination = ({ text }) => <div>{text}</div>;
 
-export default function Map(props) {
+export default function InfoMap(props) {
   const defaultProps = {
     center: {
       lat: 59.329323,
@@ -18,8 +18,8 @@ export default function Map(props) {
     <div>
       <div
         style={{
-          height: "50vh",
-          width: "100%",
+          height: "30vh",
+          width: "30%",
           position:"relative",
           zIndex: 0,
         }}
