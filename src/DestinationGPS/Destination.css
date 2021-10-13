@@ -1,0 +1,11 @@
+.ArrowPos {
+    position: absolute;
+    z-index: 1;
+    margin: 20px 0px 0px 20px;
+}
+
+.NavPos {
+    position: absolute;
+    z-index: 1;
+    margin: 70px 0px 0px 20px;
+}

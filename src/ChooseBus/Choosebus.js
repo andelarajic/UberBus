@@ -7,7 +7,7 @@ import { IoPersonSharp } from "react-icons/io5";
 function Choosebus(props) {
   return (
     <div>
-      <Arrow />
+      <Arrow back={() => props.history.goBack()}/>
       <Map />
       <p className="Choose">Choose a bus</p>
       <button

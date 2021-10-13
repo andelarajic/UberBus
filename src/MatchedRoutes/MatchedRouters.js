@@ -1,15 +1,14 @@
 import React from "react";
 import Map from "../Map/Map";
 import "./MatchedRoutes.css";
-import { IoArrowBack } from "react-icons/io5";
-import { Link } from "react-router-dom";
+import Arrow from "../Arrow/Arrow";
 
 const MatchedRouters = (props) => {
   return (
     <div className="Route">
-      <Link to="/destination">
-        <IoArrowBack className="back" />
-      </Link>
+      <div className="ArrowPos">
+        <Arrow back={() => props.history.goBack()}/>
+      </div>
       <h1 className="Matchedtext">Matched Routers</h1>
       <hr className="hr" />
       <h3 className="Location">Location</h3>

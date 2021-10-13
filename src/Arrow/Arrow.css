@@ -1,6 +1,13 @@
-.Arrow1{
-    position: absolute;
-    z-index: 1;
-   margin: 20px;
+.Arrow {
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    box-shadow: 1px 2px 3px 1px rgb(208, 208, 208);
 }
-

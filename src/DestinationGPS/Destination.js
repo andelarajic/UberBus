@@ -4,11 +4,17 @@ import InputMatched from "../InputMatched/InputMatched";
 import Button from "../Button/Button";
 import Map from "../Map/Map";
 import "./Destination.css";
+import Arrow from "../Arrow/Arrow";
 
 function Destination(props) {
   return (
     <div>
-      <Navigation />
+      <div className="ArrowPos">
+        <Arrow back={() => props.history.goBack()}/>
+      </div>
+      <div className="NavPos">
+        <Navigation />
+      </div>
       <Map />
       <InputMatched />
       <Button />
