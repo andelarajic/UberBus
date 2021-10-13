@@ -7,13 +7,13 @@ function DriverCardSarah() {
     <div className="AboutDriver">
       <img className="DriverImg" src="Images/Driver2.png" alt="" />
       <div className="Driver">
-        Nathan Dumlao
+        Sarah J
         <div className="Car">Mercedes-Benz EQV</div>
         <div className="Number1">
           <MdPersonOutline className="IconPerson" />
-          11
+          6
           <RiLeafLine className="IconColor" />
-          <img className="Rating" src="Images/Rating.png" alt="" />
+          <img className="Rating" src="Images/Rating2.png" alt="" />
         </div>
       </div>
     </div>

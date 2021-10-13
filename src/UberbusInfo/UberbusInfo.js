@@ -10,7 +10,7 @@ function UberbusInfo() {
         <div className="UberBus">
           Uberbus
           <div className="Number">
-            <IoPersonSharp className="Icon" /> 11
+            <IoPersonSharp className="Icon" /> 6
           </div>
         </div>
         <p className="Time">09:10 - 11 min away</p>

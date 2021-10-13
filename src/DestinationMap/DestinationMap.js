@@ -2,7 +2,7 @@ import React from "react";
 import InfoMap from "../InfoMap/InfoMap";
 import "./DestinationMap.css";
 
-function DestinationMap() {
+function DestinationMap(props) {
   return (
     <div classname="UberMap">
       <InfoMap />
@@ -17,6 +17,14 @@ function DestinationMap() {
         <hr className="vl" />
         <img className="UberImg" src="Images/Badge2.png" alt="" />
       </div>
+      <button
+        className="ButtonDestination"
+        onClick={() => {
+          props.history.push("/destination");
+        }}
+      >
+        Add Payment Method
+      </button>
     </div>
   );
 }
