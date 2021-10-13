@@ -1,9 +1,42 @@
 .ButtonDestination {
-    margin: 20px auto;
+    margin: 0 auto;
     display: flex;
     padding: 10px 90px;
     background-color: black;
     color: white;
     font-weight: 500;
     font-size: 17px;
+}
+
+.top {
+    margin-left: 10px;
+    float: left;
+    width: 15px;
+}
+
+.bottom {
+    margin-left: 10px;
+    float: left;
+    width: 17px;
+}
+
+.line {
+    border: none;
+    background-color: black;
+    height: 70px;
+    width: 1px;
+    margin: 0px 0px 0px 17px;
+    float: left;
+}
+
+.infoText {
+    color: grey;
+    margin: 0px 20px;
+    font-size: 14px;
+}
+
+.stationText {
+    color: black;
+    margin: 0px 20px;
+    font-size: 14px;
 }
