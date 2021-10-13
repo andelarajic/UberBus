@@ -4,48 +4,48 @@ import Arrow from "../Arrow/Arrow";
 import "./Choosebus.css";
 import { IoPersonSharp } from "react-icons/io5";
 
-
 function Choosebus(props) {
   return (
     <div>
-    <Arrow/>
+      <Arrow />
       <Map />
       <p className="Choose">Choose a bus</p>
-      <button className="Uberbutton"
+      <button
+        className="Uberbutton"
         onClick={() => {
           props.history.push("/businfo1");
         }}
       >
-      <div className="UberImage">
-        <img className="Image5" src="Images/Uberbus.jpg" alt="" />
-        <div className="UberBus">
-          Uberbus
-          <div className="Number">
-            <IoPersonSharp className="Icon" /> 11
+        <div className="UberImage">
+          <img className="Image5" src="Images/Uberbus.jpg" alt="" />
+          <div className="UberBus">
+            Uberbus
+            <div className="Number">
+              <IoPersonSharp className="Icon" /> 11
+            </div>
           </div>
+          <p className="Time">09:10 - 11 min away</p>
         </div>
-        <p className="Time">09:10 - 11 min away</p>
-      </div>
       </button>
       <hr className="hr" />
-      <button className="Uberbutton"
+      <button
+        className="Uberbutton"
         onClick={() => {
-          props.history.push("/destination");
+          props.history.push("/businfo2");
         }}
       >
-      <div className="UberImage">
-        <img className="Image5" src="Images/Uberbus.jpg" alt="" />
-        <div className="UberBus">
-          Uberbus
-          <div className="Number">
-            <IoPersonSharp className="Icon" /> 11
+        <div className="UberImage">
+          <img className="Image5" src="Images/Uberbus.jpg" alt="" />
+          <div className="UberBus">
+            Uberbus
+            <div className="Number">
+              <IoPersonSharp className="Icon" /> 11
+            </div>
           </div>
+          <p className="Time">09:10 - 11 min away</p>
         </div>
-        <p className="Time">09:10 - 11 min away</p>
-      </div>
       </button>
       <hr className="hr" />
-
     </div>
   );
 }

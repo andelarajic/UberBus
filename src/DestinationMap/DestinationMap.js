@@ -6,13 +6,17 @@ function DestinationMap() {
   return (
     <div classname="UberMap">
       <InfoMap />
-      <p className="DestinationText">Pickup</p>
-      <p className="DestinationText">Location</p>
-      <img className="UberImg" src="Images/Badge.png" alt="" />
-      <hr className="vl" />
-      <img className="UberImg" src="Images/Badge2.png" alt="" />
-      <p className="DestinationText">Dropp-off</p>
-      <p className="DestinationText">Location</p>
+      <div className="DestinationText">
+        <p>Pickup</p>
+        <p>Location</p>
+        <p>Dropp-off</p>
+        <p>Location</p>
+      </div>
+      <div>
+        <img className="UberImg" src="Images/Badge.png" alt="" />
+        <hr className="vl" />
+        <img className="UberImg" src="Images/Badge2.png" alt="" />
+      </div>
     </div>
   );
 }

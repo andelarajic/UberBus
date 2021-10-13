@@ -1,33 +1,18 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
+import InputMatched from "../InputMatched/InputMatched";
+import Button from "../Button/Button";
 import Map from "../Map/Map";
 import "./Destination.css";
 
 function Destination(props) {
   return (
     <div>
-     <Navigation />
+      <Navigation />
       <Map />
-        <div className="Routes">
-          <button
-            className="Button"
-            onClick={() => {
-              props.history.push("/route");
-            }}
-          >
-            Matched Routes
-          </button>
-          <button
-            className="Button"
-            onClick={() => {
-              props.history.push("/allroutes");
-            }}
-          >
-            All Routes
-          </button>
-        </div>
-      </div>
-  
+      <InputMatched />
+      <Button />
+    </div>
   );
 }
 
