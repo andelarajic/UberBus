@@ -1,0 +1,52 @@
+.FormPay {
+    margin: 20px;
+}
+
+.InputColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.InputPay0 {
+    padding: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(190, 190, 190);
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.InputPay1 {
+    padding: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(190, 190, 190);
+    border-bottom: none;
+
+}
+
+.InputPay2 {
+    padding: 20px;
+    width: 50%;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(190, 190, 190);
+    border-radius: 0 0 0 5px;
+}
+
+.InputPay3 {
+    padding: 20px;
+    width: 50%;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(190, 190, 190);
+    border-left: none;
+    border-radius: 0 0 5px 0;
+
+}

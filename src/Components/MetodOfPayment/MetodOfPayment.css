@@ -37,6 +37,8 @@
 }
 
 .Dashgray {
+    position: relative;
+    top: -4px;
     color: rgb(168, 168, 168);
 }
 
