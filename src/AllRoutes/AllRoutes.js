@@ -1,17 +1,15 @@
 import React from "react";
 import Map from "../Map/Map";
 import "./AllRoute.css";
-import { IoArrowBack } from "react-icons/io5";
-import { Link } from "react-router-dom";
+import Arrow from "../Arrow/Arrow";
 import { AiFillWarning } from "react-icons/ai";
-
 
 const AllRoutes = (props) => {
   return (
     <div className="AllRoutes">
-      <Link to="/destination">
-        <IoArrowBack className="back" />
-      </Link>
+      <div className="ArrowPok">
+        <Arrow back={() => props.history.goBack()} />
+      </div>
       <h1>All Routes</h1>
       <hr className="hr" />
       <h3 className="Location">Location</h3>

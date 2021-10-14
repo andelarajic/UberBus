@@ -2,10 +2,8 @@
     margin: 20px;
 }
 
-.ArrowPos {
-    position: absolute;
-    z-index: 1;
-    margin: 0px 0px 0px 0px;
+.ArrowPom {
+    margin: 20px;
 }
 
 .viewbuses {

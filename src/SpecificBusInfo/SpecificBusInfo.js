@@ -5,10 +5,14 @@ import DriverCard from "../DriverCard/DriverCard";
 import Price from "../Price/Price";
 import DestinationMap from "../DestinationMap/DestinationMap";
 import UberbusInfo from "../UberbusInfo/UberbusInfo";
+import Arrow from "../Arrow/Arrow";
 
-function SpecificBusInfo() {
+function SpecificBusInfo(props) {
   return (
     <div>
+      <div className="ArrowPos">
+        <Arrow back={() => props.history.goBack()} />
+      </div>
       <Map />
       <UberbusInfo />
       <hr className="hr" />

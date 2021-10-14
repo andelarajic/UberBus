@@ -10,7 +10,7 @@ function Destination(props) {
   return (
     <div>
       <div className="ArrowPos">
-        <Arrow back={() => props.history.goBack()}/>
+        <Arrow back={() => props.history.goBack()} />
       </div>
       <div className="NavPos">
         <Navigation />

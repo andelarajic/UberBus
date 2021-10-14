@@ -12,7 +12,7 @@ const About = (props) => {
         </p>
         <p className="Paragraf">How to use the UberBus feature</p>
         <p className="Paragraf">Enter your destination</p>
-        <img className="Image" src="Images/about.png" alt="" />
+        <img className="Image" src="Images/about4.png" alt="" />
         <p className="Paragraf">
           Open the app and enter where you´re going in the Where to?box. Amap
           will comeup showing the nearby routes.
@@ -21,7 +21,7 @@ const About = (props) => {
           Tap the route of your chose and you will see different cars available
           for that route.
         </p>
-        <img className="Image" src="Images/about1.png" alt="" />
+        <img className="Image" src="Images/about3.png" alt="" />
         <p className="Paragraf">
           Tap the bus of your choice and you will be able to see riders already
           onboard with their respective ratings. Here you will be matched to a
@@ -34,7 +34,7 @@ const About = (props) => {
           You can track their arrival on the map. When they are a few minutes
           away, wait for them at you pickup location.
         </p>
-        <img className="Image" src="Images/about3.png" alt="" />
+        <img className="Image" src="Images/about1.png" alt="" />
         <p className="Paragraf2">Sit back and relax</p>
         <p className="Paragraf">
           When you arrive, payment is easy. Depending on your region, you have
@@ -46,7 +46,7 @@ const About = (props) => {
           Let us know how your trip went. You can rate your fellow riders and
           also give your driver a compliment or add a tip in the app.
         </p>
-        <img className="Image" src="Images/about4.png" alt="" />
+        <img className="Image" src="Images/about.png" alt="" />
       </div>
 
       <button
