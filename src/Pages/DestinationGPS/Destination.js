@@ -1,10 +1,10 @@
 import React from "react";
-import Navigation from "../Navigation/Navigation";
-import InputMatched from "../InputMatched/InputMatched";
-import Button from "../Button/Button";
-import Map from "../Map/Map";
+import Navigation from "../../Components/Navigation/Navigation";
+import InputMatched from "../../Components/InputMatched/InputMatched";
+import Button from "../../Components/Button/Button";
+import Map from "../../Components/Map/Map";
 import "./Destination.css";
-import Arrow from "../Arrow/Arrow";
+import Arrow from "../../Components/Arrow/Arrow";
 
 function Destination(props) {
   return (

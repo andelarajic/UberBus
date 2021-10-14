@@ -1,10 +1,10 @@
 import React from "react";
-import Map from "../Map/Map";
-import DriverCardSarah from "../DriverCardSarah/DriverCardSarah";
-import Price from "../Price/Price";
-import DestinationMap from "../DestinationMap/DestinationMap";
-import UberbusInfo from "../UberbusInfo/UberbusInfo";
-import Arrow from "../Arrow/Arrow";
+import Map from "../../Components/Map/Map";
+import DriverCardSarah from "../../Components/DriverCardSarah/DriverCardSarah";
+import Price from "../../Components/Price/Price";
+import DestinationMap from "../../DestinationMap/DestinationMap";
+import UberbusInfo from "../../Components/UberbusInfo/UberbusInfo";
+import Arrow from "../../Components/Arrow/Arrow";
 
 function SpecificBusInfo2(props) {
   return (

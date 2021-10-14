@@ -1,6 +1,6 @@
 import React from "react";
-import Map from "../Map/Map";
-import Arrow from "../Arrow/Arrow";
+import Map from "../../Components/Map/Map";
+import Arrow from "../../Components/Arrow/Arrow";
 import "./Choosebus.css";
 import { IoPersonSharp } from "react-icons/io5";
 

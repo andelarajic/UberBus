@@ -1,7 +1,7 @@
 import React from "react";
-import Map from "../Map/Map";
+import Map from "../../Components/Map/Map";
 import "./MatchedRoutes.css";
-import Arrow from "../Arrow/Arrow";
+import Arrow from "../../Components/Arrow/Arrow";
 
 const MatchedRouters = (props) => {
   return (

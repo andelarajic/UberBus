@@ -1,7 +1,7 @@
 import React from "react";
-import Map from "../Map/Map";
+import Map from "../../Components/Map/Map";
 import "./AllRoute.css";
-import Arrow from "../Arrow/Arrow";
+import Arrow from "../../Components/Arrow/Arrow";
 import { AiFillWarning } from "react-icons/ai";
 
 const AllRoutes = (props) => {
