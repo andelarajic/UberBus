@@ -19,7 +19,7 @@ function SpecificBusInfo(props) {
       <DriverCard />
       <hr className="hr" />
       <Price />
-      <hr className="hr" />
+      <hr className="hr1" />
       <DestinationMap />
     </div>
   );
