@@ -37,7 +37,7 @@ function DestinationMap(props) {
         <button
           className="ButtonDestination"
           onClick={() => {
-            props.history.push("/destination");
+            props.history.push("/payment");
           }}
         >
           Add Payment Method

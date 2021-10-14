@@ -1,0 +1,47 @@
+.PaymentP {
+    margin-top: -50px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.PaymentMetod {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.hrP {
+    background-color: rgb(152, 152, 152);
+    width: 90%;
+    height: 0.0625em;
+    border: none;
+    margin-top: 20px;
+}
+
+.IconPayment {
+    text-align: center;
+    margin-top: 22px;
+
+}
+
+.PayIcon {
+    font-size: 25px;
+    margin: 0 10px 0 10px;
+}
+
+.Dash {
+    position: relative;
+    top: -4px;
+}
+
+.Dashgray {
+    color: rgb(168, 168, 168);
+}
+
+.PayIconGray {
+    font-size: 25px;
+    margin: 0 10px 0 10px;
+    color: rgb(168, 168, 168);
+}
