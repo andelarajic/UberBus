@@ -1,13 +1,13 @@
 import "./App.css";
-import About from "./About/About";
+import About from "./Pages/About/About";
 import { Route } from "react-router-dom";
-import FirstPage from "./FirstPage/FirstPage";
-import Destination from "./DestinationGPS/Destination";
-import MatchedRouters from "./MatchedRoutes/MatchedRouters";
-import AllRoutes from "./AllRoutes/AllRoutes";
-import Choosebus from "./ChooseBus/Choosebus";
-import SpecificBusInfo from "./SpecificBusInfo/SpecificBusInfo";
-import SpecificBusInfo2 from "./SpecificBusInfo2/SpecificBusInfo2";
+import FirstPage from "./Pages/FirstPage/FirstPage";
+import Destination from "./Pages/DestinationGPS/Destination";
+import MatchedRouters from "./Pages/MatchedRoutes/MatchedRouters";
+import AllRoutes from "./Pages/AllRoutes/AllRoutes";
+import Choosebus from "./Pages/ChooseBus/Choosebus";
+import SpecificBusInfo from "./Pages/SpecificBusInfo/SpecificBusInfo";
+import SpecificBusInfo2 from "./Pages/SpecificBusInfo2/SpecificBusInfo2";
 import Payment from "./Pages/Payment/Payment";
 
 function App() {

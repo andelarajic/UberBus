@@ -2,7 +2,7 @@ import React from "react";
 import Map from "../../Components/Map/Map";
 import DriverCardSarah from "../../Components/DriverCardSarah/DriverCardSarah";
 import Price from "../../Components/Price/Price";
-import DestinationMap from "../../DestinationMap/DestinationMap";
+import DestinationMap from "../../Components/DestinationMap/DestinationMap";
 import UberbusInfo from "../../Components/UberbusInfo/UberbusInfo";
 import Arrow from "../../Components/Arrow/Arrow";
 

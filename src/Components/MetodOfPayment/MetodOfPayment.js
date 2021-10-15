@@ -10,7 +10,9 @@ function MethodOfPayment() {
     <div className="Payment">
       <div className="PaymentP">Payment</div>
       <div className="PaymentMetod">Method of payment</div>
-      <hr className="hrP" />
+      <div className="hrpM">
+        <hr className="hrP" />
+      </div>
       <div className="IconPayment">
         <GrLocation className="PayIcon" />
         <VscDash className="Dash" />

@@ -1,11 +1,11 @@
 import React from "react";
-import Map from "../../Map/Map";
+import Map from "../../Components/Map/Map"
 import "./SpecificBusInfo.css";
-import DriverCard from "../../DriverCard/DriverCard";
-import Price from "../../Price/Price";
-import DestinationMap from "../../DestinationMap/DestinationMap";
-import UberbusInfo from "../../UberbusInfo/UberbusInfo";
-import Arrow from "../../Arrow/Arrow";
+import DriverCard from "../../Components/DriverCard/DriverCard";
+import Price from "../../Components/Price/Price";
+import DestinationMap from "../../Components/DestinationMap/DestinationMap";
+import UberbusInfo from "../../Components/UberbusInfo/UberbusInfo";
+import Arrow from "../../Components/Arrow/Arrow";
 
 function SpecificBusInfo(props) {
   return (
@@ -13,7 +13,7 @@ function SpecificBusInfo(props) {
       <div className="ArrowPos">
         <Arrow back={() => props.history.goBack()} />
       </div>
-      <Map />
+<Map/>
       <UberbusInfo />
       <hr className="hr" />
       <DriverCard />
