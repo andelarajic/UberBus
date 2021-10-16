@@ -1,0 +1,28 @@
+.ConfirmTitle {
+    text-align: center;
+}
+
+.CoIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ConfIcon {
+    text-align: center;
+    font-size: 90px;
+}
+
+.ComText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ConfirmText {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}

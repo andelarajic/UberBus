@@ -2,6 +2,7 @@ import React from "react";
 import "./Rating.css";
 import { IoStarOutline } from "react-icons/io5";
 import { IoStarSharp } from "react-icons/io5";
+import { withRouter } from "react-router-dom";
 
 function Rating(props) {
   return (
@@ -41,7 +42,7 @@ function Rating(props) {
         <button
           className="OrderNow"
           onClick={() => {
-            props.history.push("/choosebus");
+            props.history.push("/confirmation");
           }}
         >
           Order now
@@ -51,4 +52,4 @@ function Rating(props) {
   );
 }
 
-export default Rating;
+export default withRouter(Rating);
