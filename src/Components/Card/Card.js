@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 import CreditCardPopup from "../CreditCardPopup/CreditCardPopup";
+import { withRouter } from "react-router-dom";
 
 const Button = (props) => {
   return (
@@ -22,7 +23,7 @@ const Button = (props) => {
           <button
             className="AddNewCardBtn"
             onClick={() => {
-              props.history.push("/choosepayment");
+              props.history.push("/payment");
             }}
           >
             Add new card
@@ -33,4 +34,4 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export default withRouter(Button);

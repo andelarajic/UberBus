@@ -7,7 +7,6 @@ import CardInput from "../../Components/CardInput/CardInput";
 
 function Payment(props) {
   return (
-    <div>
       <div>
         <div className="ArrowPom">
           <Arrow back={() => props.history.goBack()} />
@@ -15,7 +14,6 @@ function Payment(props) {
         <MethodOfPayment />
         <CardInput/>
       </div>
-    </div>
   );
 }
 

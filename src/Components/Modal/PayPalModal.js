@@ -18,7 +18,7 @@ function Modal(props) {
 
   return (
     <div>
-      <a href="/" onClick={toggleModal}>
+      <a href="/bookbus" onClick={toggleModal}>
         <img className="ModalLink" src="Images/paypal.png" alt="" />
       </a>
       {modal && (

@@ -10,6 +10,7 @@ import SpecificBusInfo from "./Pages/SpecificBusInfo/SpecificBusInfo";
 import SpecificBusInfo2 from "./Pages/SpecificBusInfo2/SpecificBusInfo2";
 import Payment from "./Pages/Payment/Payment";
 import ChoosePayment from "./Pages/ChoosePayment/ChoosedPayment";
+import BookBus from "./Pages/BookBus/BookBus";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route exact path="/businfo2" component={SpecificBusInfo2} />
       <Route exact path="/payment" component={Payment} />
       <Route exact path="/choosepayment" component={ChoosePayment} />
+      <Route exact path="/bookbus" component={BookBus} />
     </div>
   );
 }
