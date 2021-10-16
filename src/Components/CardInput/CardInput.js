@@ -1,5 +1,6 @@
 import React from "react";
 import "./CardInput.css";
+import CreditCardPopup from "../CreditCardPopup/CreditCardPopup";
 import { MdPersonOutline } from "react-icons/md";
 import { VscLock } from "react-icons/vsc";
 
@@ -52,6 +53,10 @@ const CardInput = (props) => {
         >
           Add card
         </button>
+      </div>
+      <div className="TextOr">Or</div>
+      <div className="CreditCardPopup">
+        <CreditCardPopup />
       </div>
     </div>
   );

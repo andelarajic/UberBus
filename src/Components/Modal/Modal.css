@@ -1,0 +1,47 @@
+body.actyve-modal {
+    overflow-y: hidden;
+}
+
+.Modal,
+.Overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.Overlay {
+    background-color: white;
+}
+
+.ModalContent {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    color: black;
+}
+
+.ModalLink {
+    width: 65px;
+    margin: 10px 3px 0 3px;
+}
+
+.BtnModal {
+    width: 65px;
+    margin: 0 3px 0 3px;
+}
+
+.vlModul {
+    border: none;
+    background-color: black;
+    height: 40px;
+    width: 1px;
+    margin-top: 1px;
+}
