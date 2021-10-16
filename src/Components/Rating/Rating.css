@@ -1,0 +1,50 @@
+.TextRating {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.RatingPayment {
+    margin: 20px;
+}
+
+.RatingIcon {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.hrR {
+    width: 150px;
+    color: rgb(190, 190, 190);
+}
+
+.hrI {
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    height: 0.0625em;
+    border: none;
+    margin-top: 40px;
+}
+
+.RatingRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.PriceBus {
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 0;
+
+}
+
+.OrderNow {
+    width: 100%;
+    height: 40px;
+    margin: 40px 0;
+    background-color: black;
+    color: white;
+}

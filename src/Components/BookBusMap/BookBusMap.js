@@ -36,7 +36,7 @@ function BookBusMap(props) {
         <button
           className="ButtonDestination"
           onClick={() => {
-            props.history.push("/payment");
+            props.history.push("/orderuberbus");
           }}
         >
           Book Bus
