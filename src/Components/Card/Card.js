@@ -5,14 +5,28 @@ import { withRouter } from "react-router-dom";
 
 const Button = (props) => {
   return (
-    <div>
-      <div className="Card">
-        <p className="CardText">MasterCard</p>
-        <p className="CardText2">xxxx-xxxx-xxxx-9314</p>
+    <div className="Cards">
+      <div>
+        <button
+          className="Card"
+          onClick={() => {
+            props.history.push("/bookbus");
+          }}
+        >
+          <p className="CardText">MasterCard</p>
+          <p className="CardText2">xxxx-xxxx-xxxx-9314</p>
+        </button>
       </div>
-      <div className="Card">
-        <p className="CardText">VISA</p>
-        <p className="CardText2">xxxx-xxxx-xxxx-9314</p>
+      <div className="Down">
+        <button
+          className="Card"
+          onClick={() => {
+            props.history.push("/bookbus");
+          }}
+        >
+          <p className="CardText">VISA</p>
+          <p className="CardText2">xxxx-xxxx-xxxx-9314</p>
+        </button>
       </div>
       <div className="TextOrBottom">Or</div>
       <div className="CreditCardPopup">
