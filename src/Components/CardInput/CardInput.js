@@ -3,6 +3,7 @@ import "./CardInput.css";
 import CreditCardPopup from "../CreditCardPopup/CreditCardPopup";
 import { MdPersonOutline } from "react-icons/md";
 import { VscLock } from "react-icons/vsc";
+import { withRouter } from "react-router-dom";
 
 const CardInput = (props) => {
   return (
@@ -44,16 +45,16 @@ const CardInput = (props) => {
         </div>
         <MdPersonOutline />
       </div>
-      <div className="hrpM">
-        <button
-          className="AddCardBtn"
-          onClick={() => {
-            props.history.push("/");
-          }}
-        >
-          Add card
-        </button>
-      </div>
+
+      <button
+        className="AddCardBtn"
+        onClick={() => {
+          props.history.push("/choosepayment");
+        }}
+      >
+        Add card
+      </button>
+
       <div className="TextOr">Or</div>
       <div className="CreditCardPopup">
         <CreditCardPopup />
@@ -62,4 +63,4 @@ const CardInput = (props) => {
   );
 };
 
-export default CardInput;
+export default withRouter(CardInput);
