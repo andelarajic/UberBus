@@ -1,5 +1,5 @@
 import React from "react";
-import Map from "../../Components/Map/Map"
+import Map from "../../Components/Map/Map";
 import "./SpecificBusInfo.css";
 import DriverCard from "../../Components/DriverCard/DriverCard";
 import Price from "../../Components/Price/Price";
@@ -13,7 +13,7 @@ function SpecificBusInfo(props) {
       <div className="ArrowPos">
         <Arrow back={() => props.history.goBack()} />
       </div>
-<Map/>
+      <Map />
       <UberbusInfo />
       <hr className="hr" />
       <DriverCard />
