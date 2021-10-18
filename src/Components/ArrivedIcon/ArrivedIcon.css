@@ -1,0 +1,10 @@
+.ArrivedTitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ArrivedI {
+    position: relative;
+    top:30px;
+}

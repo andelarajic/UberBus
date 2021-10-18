@@ -14,6 +14,7 @@ import BookBus from "./Pages/BookBus/BookBus";
 import OrderUberBus from "./Pages/OrderUberBus/OrderUberBus";
 import Confirmation from "./Pages/Confirmation/Confitmation";
 import TripDetails from "./Pages/TripDetails/TripDetails";
+import ArrivalRating from "./Pages/ArrivalRating/ArrivalRating";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Route exact path="/orderuberbus" component={OrderUberBus} />
       <Route exact path="/confirmation" component={Confirmation} />
       <Route exact path="/tripdetails" component={TripDetails} />
+      <Route exact path="/arrivalrating" component={ArrivalRating} />
     </div>
   );
 }

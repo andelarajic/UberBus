@@ -6,7 +6,7 @@ import Arrow from "../../Components/Arrow/Arrow";
 const Confirmation = (props) => {
   return (
     <div>
-      <div className="ArrowPos">
+      <div className="ArrowPom">
         <Arrow back={() => props.history.goBack()} />
       </div>
       <ConfirmRide />
@@ -40,7 +40,7 @@ const Confirmation = (props) => {
           <button
             className="ContinueBtn"
             onClick={() => {
-              props.history.push("/confirmation");
+              props.history.push("/arrivalrating");
             }}
           >
             Continue

@@ -1,0 +1,34 @@
+.hrRating {
+    background-color: rgb(232, 232, 232);
+    width: 100%;
+    height: 0.0625em;
+    border: none;
+}
+
+.ArrivalDriverCard {
+    margin: 10px;
+}
+
+.ButtonCont {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.ButtonConColor1 {
+    background-color: rgb(211, 211, 211);
+    width: 120px;
+    border-radius: 130px;
+}
+
+.ButtonConColor2 {
+    background-color: rgb(211, 211, 211);
+    margin-left: 20px;
+    width: 120px;
+    border-radius: 110px;
+}
+
+.ButtonConText {
+    font-size: 12px;
+    text-align: center;
+}
