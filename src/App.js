@@ -7,7 +7,6 @@ import MatchedRouters from "./Pages/MatchedRoutes/MatchedRouters";
 import AllRoutes from "./Pages/AllRoutes/AllRoutes";
 import Choosebus from "./Pages/ChooseBus/Choosebus";
 import SpecificBusInfo from "./Pages/SpecificBusInfo/SpecificBusInfo";
-import SpecificBusInfo2 from "./Pages/SpecificBusInfo2/SpecificBusInfo2";
 import Payment from "./Pages/Payment/Payment";
 import ChoosePayment from "./Pages/ChoosePayment/ChoosedPayment";
 import BookBus from "./Pages/BookBus/BookBus";
@@ -25,8 +24,7 @@ function App() {
       <Route exact path="/route" component={MatchedRouters} />
       <Route exact path="/allroutes" component={AllRoutes} />
       <Route exact path="/choosebus" component={Choosebus} />
-      <Route exact path="/businfo1" component={SpecificBusInfo} />
-      <Route exact path="/businfo2" component={SpecificBusInfo2} />
+      <Route exact path="/businfo" component={SpecificBusInfo} />
       <Route exact path="/payment" component={Payment} />
       <Route exact path="/choosepayment" component={ChoosePayment} />
       <Route exact path="/bookbus" component={BookBus} />

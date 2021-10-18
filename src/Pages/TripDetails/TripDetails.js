@@ -6,9 +6,12 @@ import DriverCard from "../../Components/DriverCard/DriverCard";
 import Rideaway from "../../Components/RideAway/RideAway";
 import Price from "../../Components/Price/Price";
 import PickUpDropOff from "../../Components/PickUpDropOff/PickUpDropOff";
-import Passengers from "../../Components/Passengers/Passengers";
+import Passenger from "../../Components/Passenger/Passenger";
 
 function TripDetails(props) {
+  
+  const driver = JSON.parse(localStorage.getItem("selected-driver"))
+
   return (
     <div>
       <div className="ArrowPos">
@@ -17,7 +20,7 @@ function TripDetails(props) {
       <Map />
       <Rideaway />
       <div className="DriverCardTrip">
-        <DriverCard />
+        <DriverCard driver={driver}/>
       </div>
       <div className="PriceTrip">
         <hr className="hrT" />
@@ -25,8 +28,14 @@ function TripDetails(props) {
         <hr className="hrT" />
       </div>
       <PickUpDropOff />
-      <Passengers />
-    </div>
+      <p className="PassengersText">Passengers</p>
+        {
+          driver.passengers.map((passenger, index) => {
+            return <Passenger key={index} passenger={passenger}/>
+          })
+        }
+        <p className="Viewmore">View more</p>
+      </div>
   );
 }
 

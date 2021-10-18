@@ -3,18 +3,18 @@ import "./DriverCard.css";
 import { MdPersonOutline } from "react-icons/md";
 import { RiLeafLine } from "react-icons/ri";
 
-function DriverCard() {
+function DriverCard({driver}) {
   return (
     <div className="AboutDriver">
-      <img className="DriverImg" src="Images/Driver.png" alt="" />
+      <img className="DriverImg" src={driver.profilePicture} alt="" />
       <div className="Driver">
-        Nathan Dumlao
-        <div className="Car">Mercedes-Benz EQV</div>
+        {driver.firstname} {driver.lastname}
+        <div className="Car">{driver.car}</div>
         <div className="Number1">
           <MdPersonOutline className="IconPerson" />
-          11
+          {driver.noOfPassengers}
           <RiLeafLine className="IconColor" />
-          <img className="Rating" src="Images/Rating.png" alt="" />
+          <img className="Rating" src={driver.rating} alt="" />
         </div>
       </div>
     </div>

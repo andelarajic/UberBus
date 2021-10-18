@@ -8,15 +8,18 @@ import UberbusInfo from "../../Components/UberbusInfo/UberbusInfo";
 import Arrow from "../../Components/Arrow/Arrow";
 
 function BookBus(props) {
+  
+  const driver = JSON.parse(localStorage.getItem("selected-driver"))
+
   return (
     <div>
       <div className="ArrowPos">
         <Arrow back={() => props.history.goBack()} />
       </div>
       <Map />
-      <UberbusInfo />
+      <UberbusInfo passengers={driver.passengers}/>
       <hr className="hr" />
-      <DriverCard />
+      <DriverCard driver={driver}/>
       <hr className="hr" />
       <Price />
       <hr className="hr1" />
