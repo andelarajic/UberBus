@@ -29,7 +29,7 @@ const Confirmation = (props) => {
           <button
             className="TripDetails"
             onClick={() => {
-              props.history.push("/confirmation");
+              props.history.push("/tripdetails");
             }}
           >
             Trip details

@@ -1,0 +1,41 @@
+.Passengers {
+    margin: 20px;
+}
+
+.PassengersText {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.PassengersText1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.Passenger1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Person1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Passenger2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Passenger3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Viewmore {
+    color: blue;
+    position: absolute;
+    right: 20px;
+}
