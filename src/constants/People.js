@@ -21,6 +21,27 @@ const nathanPassengers = [
 
 const oliviaPassengers = [
 
+    {
+        id: 1,
+        name: "Sophie Barker",
+        profilePicture: "Images/PassengerS.png",
+        rating: "Images/RatingS.png"
+    },
+    {
+    
+        id: 1,
+        name: "Liam Brown",
+        profilePicture: "Images/PassengerL.png",
+        rating: "Images/RatingL.png"
+    },
+    {
+    
+        id: 1,
+        name: "Grace Knight",
+        profilePicture: "Images/PassengerG.png",
+        rating: "Images/RatingG.png"
+    }
+
 ]
 
 export const drivers = [
