@@ -1,7 +1,6 @@
 import React from "react";
 import "./CardInput.css";
 import CreditCardPopup from "../CreditCardPopup/CreditCardPopup";
-import { MdPersonOutline } from "react-icons/md";
 import { VscLock } from "react-icons/vsc";
 import { withRouter } from "react-router-dom";
 
@@ -43,7 +42,6 @@ const CardInput = (props) => {
             name="name"
           />
         </div>
-        <MdPersonOutline />
       </div>
 
       <button
