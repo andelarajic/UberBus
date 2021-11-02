@@ -1,39 +1,40 @@
-import React from "react";
-import GoogleMapReact from "google-map-react";
+import React, { useState } from "react";
+import { GoogleMap, DirectionsRenderer } from "@react-google-maps/api";
 
-const Destination = ({ text }) => <div>{text}</div>;
+function Map({ to, from }) {
+  const directionsService = new window.google.maps.DirectionsService();
 
-export default function InfoMap(props) {
-  const defaultProps = {
-    center: {
-      lat: 59.329323,
-      lng: 18.068581,
+  const [direction, setDirection] = useState("");
+  console.log("F: " + from + " T: " + to);
+  directionsService.route(
+    {
+      origin: from,
+      destination: to,
+      travelMode: window.google.maps.TravelMode.DRIVING,
     },
-    zoom: 11,
-  };
+    (result, status) => {
+      if (status === window.google.maps.DirectionsStatus.OK) {
+        setDirection(result);
+      } else {
+        console.error(`error fetching directions ${result}`);
+      }
+    }
+  );
 
   return (
-    // Important! Always set the container height explicitly
-
-    <div>
-      <div
-        style={{
-          height: "20vh",
-          width: "40%",
-          position:"relative",
-          float:"right",
-          margin:"20px",
-          zIndex: 0,
-        }}
-      >
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyATwgpzSq0TU95Mcj8HipmTNUxkwLUEId8" }}
-          defaultCenter={defaultProps.center}
-          defaultZoom={defaultProps.zoom}
-        >
-          <Destination lat={59.955413} lng={30.337844} text="My Marker" />
-        </GoogleMapReact>
-      </div>
-    </div>
+    <GoogleMap
+      mapContainerStyle={{
+        height: "20vh",
+        width: "40%",
+        position: "relative",
+        float: "right",
+        margin: "20px",
+        zIndex: 0,
+      }}
+    >
+      <DirectionsRenderer directions={direction} />
+    </GoogleMap>
   );
 }
+
+export default Map;

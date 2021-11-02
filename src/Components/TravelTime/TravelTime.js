@@ -1,6 +1,7 @@
 import React from "react";
 import "./TravelTime.css";
 import { CgSupport } from "react-icons/cg";
+import { withRouter } from "react-router-dom";
 
 function TravelTime(props) {
   return (
@@ -29,7 +30,7 @@ function TravelTime(props) {
         <button
           className="ContinueBtn"
           onClick={() => {
-            props.history.push("/arrivalrating");
+            props.history.push("/about");
           }}
         >
           Continue
@@ -39,4 +40,4 @@ function TravelTime(props) {
   );
 }
 
-export default TravelTime;
+export default withRouter(TravelTime);
