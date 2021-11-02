@@ -30,7 +30,7 @@ function TravelTime(props) {
         <button
           className="ContinueBtn"
           onClick={() => {
-            props.history.push("/about");
+            props.history.push("/destination");
           }}
         >
           Continue

@@ -6,7 +6,7 @@ import Arrow from "../../Components/Arrow/Arrow";
 const Confirmation = (props) => {
   return (
     <div>
-      <div className="ArrowPom">
+      <div className="backButtonPos">
         <Arrow back={() => props.history.goBack()} />
       </div>
       <ConfirmRide />

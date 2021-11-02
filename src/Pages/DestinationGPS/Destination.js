@@ -5,20 +5,21 @@ import Button from "../../Components/Button/Button";
 import Map from "../../Components/Map/Map";
 import "./Destination.css";
 import Arrow from "../../Components/Arrow/Arrow";
+import { normalMap } from "../../constants/Map";
 
 function Destination(props) {
-  const [to, setTo] = useState('New York')
-  const [from, setFrom] = useState('Boston')
+  const [to, setTo] = useState('Odenplan')
+  const [from, setFrom] = useState('Mall of Scandinavia')
 
   return (
     <div>
-      <div className="ArrowPos">
+      <div className="backButtonAbsolutePos">
         <Arrow back={() => props.history.goBack()} />
       </div>
       <div className="NavPos">
         <Navigation />
       </div>
-      <Map to={to} from={from}/>
+      <Map to={to} from={from} mapSize={normalMap}/>
       <InputMatched to={to} from={from} setTo={setTo} setFrom={setFrom}/>
       <Button />
     </div>

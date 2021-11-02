@@ -1,12 +1,13 @@
 import React from "react";
-import InfoMap from "../InfoMap/InfoMap";
+import Map from "../Map/Map";
 import { withRouter } from "react-router-dom";
+import { miniMap } from "../../constants/Map";
 
 function BookBusMap(props) {
   return (
     <div>
       <div>
-        <InfoMap />
+        <Map to={null} from={null} mapSize={miniMap} />
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div
             style={{

@@ -8,7 +8,7 @@ import TravelTime from "../../Components/TravelTime/TravelTime";
 function ArrivalRating(props) {
   return (
     <div>
-      <div className="ArrowPom">
+      <div className="backButtonPos">
         <Arrow back={() => props.history.goBack()} />
       </div>
       <ArrivedIcon />

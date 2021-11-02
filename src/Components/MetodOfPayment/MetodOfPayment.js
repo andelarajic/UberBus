@@ -7,7 +7,7 @@ import { BsCheck2Circle } from "react-icons/bs";
 
 function MethodOfPayment() {
   return (
-    <div className="Payment">
+    <div>
       <div className="PaymentP">Payment</div>
       <div className="PaymentMetod">Method of payment</div>
       <div className="hrpM">

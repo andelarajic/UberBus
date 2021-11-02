@@ -6,6 +6,7 @@ import Price from "../../Components/Price/Price";
 import BookBusMap from "../../Components/BookBusMap/BookBusMap";
 import UberbusInfo from "../../Components/UberbusInfo/UberbusInfo";
 import Arrow from "../../Components/Arrow/Arrow";
+import { normalMap } from "../../constants/Map";
 
 function BookBus(props) {
   
@@ -13,10 +14,10 @@ function BookBus(props) {
 
   return (
     <div>
-      <div className="ArrowPos">
+      <div className="backButtonAbsolutePos">
         <Arrow back={() => props.history.goBack()} />
       </div>
-      <Map />
+      <Map to={null} from={null} mapSize={normalMap}/>
       <UberbusInfo passengers={driver.passengers}/>
       <hr className="hr" />
       <DriverCard driver={driver}/>

@@ -7,7 +7,7 @@ import Rating from "../../Components/Rating/Rating";
 function OrderUberBus(props) {
   return (
     <div>
-      <div className="ArrowPom">
+      <div className="backButtonPos">
         <Arrow back={() => props.history.goBack()} />
       </div>
       <div className="Payment">

@@ -1,11 +1,12 @@
 import React from "react";
-import InfoMap from "../InfoMap/InfoMap";
+import { miniMap } from "../../constants/Map";
+import Map from "../Map/Map";
 
 function PickUpDropOff() {
   return (
     <div>
       <div>
-        <InfoMap />
+        <Map to={null} from={null} mapSize={miniMap}/>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div
             style={{

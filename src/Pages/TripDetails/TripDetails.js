@@ -7,6 +7,7 @@ import Rideaway from "../../Components/RideAway/RideAway";
 import Price from "../../Components/Price/Price";
 import PickUpDropOff from "../../Components/PickUpDropOff/PickUpDropOff";
 import Passenger from "../../Components/Passenger/Passenger";
+import { normalMap } from "../../constants/Map";
 
 function TripDetails(props) {
   
@@ -14,10 +15,10 @@ function TripDetails(props) {
 
   return (
     <div>
-      <div className="ArrowPos">
+      <div className="backButtonAbsolutePos">
         <Arrow back={() => props.history.goBack()} />
       </div>
-      <Map />
+      <Map to={null} from={null} mapSize={normalMap}/>
       <Rideaway />
       <div className="DriverCardTrip">
         <DriverCard driver={driver}/>

@@ -15,6 +15,7 @@ import Confirmation from "./Pages/Confirmation/Confitmation";
 import TripDetails from "./Pages/TripDetails/TripDetails";
 import ArrivalRating from "./Pages/ArrivalRating/ArrivalRating";
 import { useLoadScript } from "@react-google-maps/api";
+import "./Style/Global.css"
 
 function App() {
   const { isLoaded } = useLoadScript({

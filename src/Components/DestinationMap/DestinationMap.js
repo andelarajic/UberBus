@@ -1,13 +1,14 @@
 import React from "react";
-import InfoMap from "../InfoMap/InfoMap";
+import Map from "../Map/Map";
 import "./DestinationMap.css";
-import { withRouter } from "react-router-dom";
+import ButtonDestinationMap from "../../Components/Button/ButtonDestinationMap";
+import { miniMap } from "../../constants/Map";
 
 function DestinationMap(props) {
   return (
     <div>
       <div>
-        <InfoMap />
+        <Map to={null} from={null} mapSize={miniMap} />
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div
             style={{
@@ -33,18 +34,9 @@ function DestinationMap(props) {
           </div>
         </div>
       </div>
-      <div style={{ paddingBottom: "20px" }}>
-        <button
-          className="ButtonDestination"
-          onClick={() => {
-            props.history.push("/payment");
-          }}
-        >
-          Add Payment Method
-        </button>
-      </div>
+      <ButtonDestinationMap />
     </div>
   );
 }
 
-export default withRouter(DestinationMap);
+export default DestinationMap;
