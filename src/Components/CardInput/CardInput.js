@@ -43,16 +43,16 @@ const CardInput = (props) => {
           />
         </div>
       </div>
-
-      <button
-        className="AddCardBtn"
-        onClick={() => {
-          props.history.push("/choosepayment");
-        }}
-      >
-        Add card
-      </button>
-
+      <div className="ButtonPay">
+        <button
+          className="AddCardBtn"
+          onClick={() => {
+            props.history.push("/choosepayment");
+          }}
+        >
+          Add card
+        </button>
+      </div>
       <div className="TextOr">Or</div>
       <div className="CreditCardPopup">
         <CreditCardPopup />

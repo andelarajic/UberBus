@@ -6,7 +6,7 @@ import CardInput from "../../Components/CardInput/CardInput";
 
 function Payment(props) {
   return (
-    <div>
+    <div className="Pay">
       <div className="backButtonPos">
         <Arrow back={() => props.history.goBack()} />
       </div>

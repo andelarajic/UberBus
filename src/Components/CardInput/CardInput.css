@@ -66,6 +66,10 @@
     color: rgb(168, 168, 168);
 }
 
+.ButtonPay {
+    margin: 30px;
+}
+
 .AddCardBtn {
     width: 100%;
     height: 50px;
