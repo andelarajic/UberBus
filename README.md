@@ -28,5 +28,5 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 Andela Rajic <br/>
 Github - https://github.com/andelarajic <br/>
-LinkdIn - https://www.linkedin.com/in/andelarajic/ 
+LinkdIn - https://www.linkedin.com/in/andelarajic/ <br/>
 Figma - https://www.figma.com/file/yCgsjCLiFXL7MupuPTA0ap/Uber-Bus?node-id=0%3A1<br/>
